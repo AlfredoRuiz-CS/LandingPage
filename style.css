@@ -25,3 +25,20 @@ a {
     font-size: 18px;
     text-decoration: none;
 }
+
+.hero{
+    background-color: #1F2937;
+    display: flex;
+}
+
+.hero-content-left {
+    align-items: center;
+}
+
+.hero-content-left h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: -16px;
+    
+}
