@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0px;
+    margin: 0px;
 }
 
 .header {
@@ -13,12 +15,14 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: 40px;
+    margin-top: 10px;
 }
 
 .navbar {
     display: flex;
     justify-content: flex-end;
     gap: 12px;
+    margin-top: 10px;
 }
 
 a {
@@ -31,11 +35,16 @@ a {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    justify-content: center;;
+    justify-content: space-between;
+    align-self: stretch;
 }
 
 .hero-content-left {
-    margin-left: 15%
+    margin-left: 15%;
+    margin-right: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-content-left h1{
@@ -51,13 +60,14 @@ a {
 }
 
 .hero-content-right img{
-    max-width: 40%;
+    max-width: 60%;
     max-height: 50%;
+    margin: 20px 0px;
 }
 
 button {
     background-color: #3882F6;
-    flex:0 1 auto;
+    flex: 0 1 auto;
     width:100px;
     height: 30px;
     border-radius: 5px;
@@ -65,4 +75,40 @@ button {
     color:#f9faf8;
     font-weight: bold;
     padding-bottom: 2px;
+}
+
+.content {
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 64px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    margin: 5px 20px 0px 20px;
+    border-radius: 15px;
+}
+
+.card p {
+    max-width: 200px;
+    margin: 0px 0px 0px 20px;
 }
