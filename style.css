@@ -75,6 +75,7 @@ button {
     color:#f9faf8;
     font-weight: bold;
     padding-bottom: 2px;
+    margin-bottom: 15px;
 }
 
 .content {
@@ -112,3 +113,51 @@ h2 {
     max-width: 200px;
     margin: 0px 0px 0px 20px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+    padding: 0 300px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -24px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 50px 300px;
+    padding: 10px 80px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.text-box {
+    color: #fff;
+    text-align: left;
+}
+
+h3 {
+    margin-bottom: -15px;
+}
+
+.signup-button {
+    margin-top: 5px;
+    border: 2px solid #f9faf8;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #fff;
+}
+
